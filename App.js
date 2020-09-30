@@ -14,7 +14,7 @@ import TextScreen from './src/screens/TextScreen';
 import BoxScreen from './src/screens/BoxScreen';
 import Animation from './src/screens/Animation';
 import SignUp from './src/screens/SignUp';
-
+import Hactober from './src/screens/Hactober';
 const navigator = createStackNavigator(
   {
     Home: HomeScreen,
@@ -30,7 +30,8 @@ const navigator = createStackNavigator(
     Text: TextScreen,
     Box: BoxScreen,
     Animation: Animation,
-    SignUp: SignUp
+    SignUp: SignUp,
+    Hactober: Hactober
   },
   {
     initialRouteName: "Home",
